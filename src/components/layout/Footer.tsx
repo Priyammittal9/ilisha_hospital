@@ -26,9 +26,13 @@ export const Footer = () => {
                 <p className="text-gray-400 text-sm">Multispeciality Hospital</p>
               </div>
             </div>
-            <p className="text-gray-400">
+            {/* <p className="text-gray-400">
               Leading healthcare facility in Noida providing comprehensive medical services 
               with compassion and excellence since 2019.
+            </p> */}
+            <p className="text-gray-400 capitalize">
+               healthcare facility in Noida providing comprehensive medical services 
+              with compassion and excellence.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-medical-blue transition-colors">
@@ -65,9 +69,9 @@ export const Footer = () => {
               <Link to="/appointment" className="block text-gray-400 hover:text-white transition-colors">
                 Book Appointment
               </Link>
-              <Link to="/careers" className="block text-gray-400 hover:text-white transition-colors">
+              {/* <Link to="/careers" className="block text-gray-400 hover:text-white transition-colors">
                 Careers
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -91,17 +95,17 @@ export const Footer = () => {
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-medical-teal" />
                 <span className="text-gray-400 text-sm">
-                  Sector 62, Noida, UP 201309
+                  Shankar bazar  Chitrakoot, UP 
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-medical-teal" />
-                <span className="text-gray-400 text-sm">+91-120-4567890</span>
+                <span className="text-gray-400 text-sm">+91-8858733618</span>
               </div>
-              <div className="flex items-center space-x-2">
+              {/* <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-medical-teal" />
                 <span className="text-gray-400 text-sm">info@ilishahealthcare.com</span>
-              </div>
+              </div> */}
             </div>
 
             <div className="space-y-2">
@@ -127,13 +131,22 @@ export const Footer = () => {
               © 2024 Ilisha Healthcare & Multispeciality Hospital. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
-              <Link to="/faq" className="text-gray-400 hover:text-white transition-colors">
+              <Link 
+              // to="/faq"
+              to={'#'}
+               className="text-gray-400 hover:text-white transition-colors">
                 Privacy Policy
               </Link>
-              <Link to="/faq" className="text-gray-400 hover:text-white transition-colors">
+              <Link 
+              // to="/faq"
+              to={'#'}
+               className="text-gray-400 hover:text-white transition-colors">
                 Terms of Service
               </Link>
-              <Link to="/faq" className="text-gray-400 hover:text-white transition-colors">
+              <Link 
+              // to="/faq"
+              to={'#'}
+               className="text-gray-400 hover:text-white transition-colors">
                 Cookie Policy
               </Link>
             </div>

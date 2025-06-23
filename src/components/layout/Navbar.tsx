@@ -22,9 +22,9 @@ export const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleEmergencyCall = () => {
-    window.open("tel:+911204567890", "_self");
-  };
+  // const handleEmergencyCall = () => {
+  //   window.open("tel:+911204567890", "_self");
+  // };
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -85,9 +85,9 @@ export const Navbar = () => {
             <Link to="/services" className="text-gray-700 hover:text-medical-teal transition-colors">
               Services
             </Link>
-            <Link to="/blog" className="text-gray-700 hover:text-medical-teal transition-colors">
+            {/* <Link to="/blog" className="text-gray-700 hover:text-medical-teal transition-colors">
               Blog
-            </Link>
+            </Link> */}
             <Link to="/contact" className="text-gray-700 hover:text-medical-teal transition-colors">
               Contact
             </Link>
@@ -96,7 +96,7 @@ export const Navbar = () => {
           {/* Emergency Call & Appointment Button */}
           <div className="flex items-center space-x-4">
             <Button
-              onClick={handleEmergencyCall}
+              // onClick={handleEmergencyCall}
               variant="outline"
               size="sm"
               className="hidden md:flex items-center space-x-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white"
@@ -105,7 +105,10 @@ export const Navbar = () => {
               <span>Emergency</span>
             </Button>
             
-            <Link to="/appointment">
+            <Link 
+            // to="/appointment"
+            to={'#'}
+            >
               <Button className="medical-button">
                 Book Appointment
               </Button>
@@ -170,7 +173,7 @@ export const Navbar = () => {
                 Contact
               </Link>
               <Button
-                onClick={handleEmergencyCall}
+                // onClick={handleEmergencyCall}
                 variant="outline"
                 className="w-full border-red-500 text-red-500 hover:bg-red-500 hover:text-white"
               >

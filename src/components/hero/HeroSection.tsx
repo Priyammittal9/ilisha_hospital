@@ -9,7 +9,7 @@ export const HeroSection = () => {
 
   const slides = [
     {
-      title: "ilisha healthcare",
+      title: "Ilisha healthcare",
       subtitle: "multispecialty hospital",
       description: "Advanced medical care with compassion and expertise",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&h=800&fit=crop"
@@ -72,13 +72,17 @@ export const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in">
-              <Link to="/appointment">
+              <Link 
+              // to="/appointment"
+              to={"#"}>
                 <Button className="bg-white text-medical-teal hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book Appointment
                 </Button>
               </Link>
-              <Link to="/contact">
+              <Link 
+              // to="/contact"
+              to={"#"}>
                 <Button variant="outline" className="border-white bg-transparent text-white hover:bg-white hover:text-medical-teal px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300">
                   Contact Us
                 </Button>
@@ -90,31 +94,31 @@ export const HeroSection = () => {
               <div className="text-center">
                 <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-2">
                   <Users className="h-8 w-8 text-white mx-auto mb-2" />
-                  <h3 className="text-2xl font-bold text-white">50,000+</h3>
+                  {/* <h3 className="text-2xl font-bold text-white">50,000+</h3> */}
                 </div>
                 <p className="text-white/80">Patients Treated</p>
               </div>
               <div className="text-center">
                 <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-2">
                   <Award className="h-8 w-8 text-white mx-auto mb-2" />
-                  <h3 className="text-2xl font-bold text-white">50+</h3>
+                  {/* <h3 className="text-2xl font-bold text-white">50+</h3> */}
                 </div>
                 <p className="text-white/80">Expert Doctors</p>
               </div>
               <div className="text-center">
                 <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-2">
                   <Clock className="h-8 w-8 text-white mx-auto mb-2" />
-                  <h3 className="text-2xl font-bold text-white">24/7</h3>
+                  {/* <h3 className="text-2xl font-bold text-white">24/7</h3> */}
                 </div>
-                <p className="text-white/80">Emergency Care</p>
+                <p className="text-white/80">24/7 Emergency Care</p>
               </div>
-              <div className="text-center">
+              {/* <div className="text-center">
                 <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-2">
                   <Calendar className="h-8 w-8 text-white mx-auto mb-2" />
                   <h3 className="text-2xl font-bold text-white">5+</h3>
                 </div>
                 <p className="text-white/80">Years of Service</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

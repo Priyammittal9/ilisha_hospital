@@ -23,16 +23,18 @@ const Index = () => {
   const quickServices = [
     {
       icon: Calendar,
-      title: "Book Appointment",
+      title: "Book Appointment ",
       description: "Schedule your visit online",
-      link: "/appointment",
+      link: "#",
+      // link: "/appointment",
       color: "bg-blue-500"
     },
     {
       icon: Phone,
       title: "Emergency Care",
       description: "24/7 emergency services",
-      link: "tel:+911204567890",
+      // link: "tel:+918858733618",
+      link: "#",
       color: "bg-red-500"
     },
     {
@@ -52,12 +54,19 @@ const Index = () => {
   ];
 
   const departments = [
-    { icon: Heart, name: "Cardiology", description: "Heart & cardiovascular care" },
-    { icon: Brain, name: "Neurology", description: "Brain & nervous system" },
-    { icon: Bone, name: "Orthopedics", description: "Bone & joint treatments" },
-    { icon: Baby, name: "Pediatrics", description: "Children's healthcare" },
-    { icon: Eye, name: "Ophthalmology", description: "Eye care specialists" },
-    { icon: UserCheck, name: "General Medicine", description: "Primary healthcare" }
+    // { icon: Heart, name: "Phsiotherapy", description: "Heart & cardiovascular care" },
+    // { icon: Brain, name: "Gengral Surgeon", description: "Brain & nervous system" },
+    // { icon: Bone, name: "Physician", description: "Bone & joint treatments" },
+    // // { icon: Baby, name: "Pediatrics", description: "Children's healthcare" },
+    // // { icon: Eye, name: "Ophthalmology", description: "Eye care specialists" },
+    // { icon: UserCheck, name: "General Medicine", description: "Primary healthcare" }
+    { icon: Heart, name: "Phsiotherapy", description: "" },
+    { icon: Brain, name: "Gengral Surgeon", description: "" },
+    { icon: Bone, name: "Physician", description: "" },
+    { icon: UserCheck, name: "Deabetolagy", description: "" },
+    // { icon: Baby, name: "Pediatrics", description: "Children's healthcare" },
+    // { icon: Eye, name: "Ophthalmology", description: "Eye care specialists" },
+    { icon: UserCheck, name: "General Medicine", description: "" }
   ];
 
   const testimonials = [
@@ -117,12 +126,15 @@ const Index = () => {
         <div className="container-width">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-gray-800">
+              {/* <h2 className="text-4xl font-bold text-gray-800">
                 Leading Healthcare Excellence Since 2019
+              </h2> */}
+              <h2 className="text-4xl font-bold text-gray-800">
+                Leading Healthcare Excellence 
               </h2>
               <p className="text-lg text-gray-600">
                 Ilisha Healthcare & Multispeciality Hospital is a premier healthcare facility 
-                in Noida, providing comprehensive medical services with state-of-the-art 
+                in Chitrakoot, providing comprehensive medical services with state-of-the-art 
                 technology and compassionate care.
               </p>
               <div className="grid grid-cols-2 gap-4">
@@ -133,7 +145,8 @@ const Index = () => {
                 </div>
                 <div className="text-center p-4">
                   <Shield className="h-8 w-8 text-medical-teal mx-auto mb-2" />
-                  <h4 className="font-semibold">NABH Accredited</h4>
+                  <h4 className="font-semibold">Quality</h4>
+                  {/* <h4 className="font-semibold">NABH Accredited</h4> */}
                   <p className="text-sm text-gray-600">Quality assurance</p>
                 </div>
               </div>
@@ -147,12 +160,12 @@ const Index = () => {
                 alt="Hospital"
                 className="rounded-xl shadow-lg"
               />
-              <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
+              {/* <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
                 <div className="text-center">
                   <h4 className="text-2xl font-bold text-medical-teal">5+</h4>
                   <p className="text-sm text-gray-600">Years Experience</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -194,7 +207,7 @@ const Index = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="section-padding">
+      {/* <section className="section-padding">
         <div className="container-width">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">What Our Patients Say</h2>
@@ -234,7 +247,7 @@ const Index = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Emergency Banner */}
       <section className="bg-red-600 text-white section-padding">
@@ -242,11 +255,11 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-4">Emergency? We're Here 24/7</h2>
           <p className="text-xl mb-6">Immediate medical attention when you need it most</p>
           <Button 
-            onClick={() => window.open("tel:+911204567890", "_self")}
+            // onClick={() => window.open("tel:+911204567890", "_self")}
             className="bg-white text-red-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
           >
             <Phone className="mr-2 h-5 w-5" />
-            Call Emergency: +91-120-456-7890
+            Call Emergency: +91-8858733618
           </Button>
         </div>
       </section>

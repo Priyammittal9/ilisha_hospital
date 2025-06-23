@@ -21,11 +21,12 @@ const Testimonials = () => {
       category: "Cardiology",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b789?w=150&h=150&fit=crop&crop=face",
-      text: "The care I received at Ilisha Healthcare was exceptional. Dr. Rajesh Gupta and his team performed my heart surgery with such precision and compassion. The nursing staff was incredibly supportive throughout my recovery. I'm grateful for the excellent treatment that gave me a new lease on life.",
+      // text: "The care I received at Ilisha Healthcare was exceptional. Dr. Rajesh Gupta and his team performed my heart surgery with such precision and compassion. The nursing staff was incredibly supportive throughout my recovery. I'm grateful for the excellent treatment that gave me a new lease on life.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta inventore? Dolores magnam tempora perferendis odit quos quod mollitia, accusantium voluptates harum architecto aspernatur magni sequi reprehenderit inventore aut officiis.",
       doctor: "Dr. Rajesh Gupta",
       date: "January 2024",
-      verified: true,
-      featured: true
+      verified: false,
+      featured: false
     },
     {
       id: 2,
@@ -36,10 +37,11 @@ const Testimonials = () => {
       category: "Orthopedics",
       rating: 5,
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      text: "After suffering from knee pain for years, I finally got my knee replacement done at Ilisha Healthcare. Dr. Sunita Sharma explained everything clearly and the surgery was a complete success. I'm back to my normal activities within 3 months. Highly recommend this hospital!",
+      // text: "After suffering from knee pain for years, I finally got my knee replacement done at Ilisha Healthcare. Dr. Sunita Sharma explained everything clearly and the surgery was a complete success. I'm back to my normal activities within 3 months. Highly recommend this hospital!",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta inventore? Dolores magnam tempora perferendis odit quos quod mollitia, accusantium voluptates harum architecto aspernatur magni sequi reprehenderit inventore aut officiis.",
       doctor: "Dr. Sunita Sharma",
       date: "December 2023",
-      verified: true
+      verified: false
     },
     {
       id: 3,
@@ -50,10 +52,11 @@ const Testimonials = () => {
       category: "Oncology",
       rating: 5,
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-      text: "Fighting cancer was the toughest battle of my life, but the oncology team at Ilisha Healthcare made it bearable. Their compassionate care, advanced treatment options, and emotional support helped me through this difficult journey. I'm now cancer-free and eternally grateful.",
+      // text: "Fighting cancer was the toughest battle of my life, but the oncology team at Ilisha Healthcare made it bearable. Their compassionate care, advanced treatment options, and emotional support helped me through this difficult journey. I'm now cancer-free and eternally grateful.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta inventore? Dolores magnam tempora perferendis odit quos quod mollitia, accusantium voluptates harum architecto aspernatur magni sequi reprehenderit inventore aut officiis.",
       doctor: "Dr. Sanjay Mishra",
       date: "November 2023",
-      verified: true
+      verified: false
     },
     {
       id: 4,
@@ -64,10 +67,11 @@ const Testimonials = () => {
       category: "Emergency",
       rating: 5,
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      text: "I was rushed to Ilisha Healthcare after a serious accident. The emergency team acted swiftly and saved my life. The trauma care unit is world-class and the doctors are highly skilled. I'm alive today because of their quick response and excellent medical care.",
+      // text: "I was rushed to Ilisha Healthcare after a serious accident. The emergency team acted swiftly and saved my life. The trauma care unit is world-class and the doctors are highly skilled. I'm alive today because of their quick response and excellent medical care.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta inventore? Dolores magnam tempora perferendis odit quos quod mollitia, accusantium voluptates harum architecto aspernatur magni sequi reprehenderit inventore aut officiis.",
       doctor: "Emergency Team",
       date: "October 2023",
-      verified: true
+      verified: false
     },
     {
       id: 5,
@@ -78,10 +82,11 @@ const Testimonials = () => {
       category: "Maternity",
       rating: 5,
       image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=150&h=150&fit=crop&crop=face",
-      text: "My delivery experience at Ilisha Healthcare was wonderful. The maternity ward is comfortable and the doctors are very caring. Dr. Kavita Singh guided me through a smooth delivery and the NICU team took excellent care of my premature baby. Thank you for making this journey special.",
+      // text: "My delivery experience at Ilisha Healthcare was wonderful. The maternity ward is comfortable and the doctors are very caring. Dr. Kavita Singh guided me through a smooth delivery and the NICU team took excellent care of my premature baby. Thank you for making this journey special.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta inventore? Dolores magnam tempora perferendis odit quos quod mollitia, accusantium voluptates harum architecto aspernatur magni sequi reprehenderit inventore aut officiis.",
       doctor: "Dr. Kavita Singh",
       date: "September 2023",
-      verified: true
+      verified: false
     },
     {
       id: 6,
@@ -92,11 +97,12 @@ const Testimonials = () => {
       category: "Pediatrics",
       rating: 5,
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      text: "My son needed surgery and we were very worried. But Dr. Anjali Gupta and the pediatric team were amazing with children. They made my son comfortable and explained everything to us. The surgery was successful and the recovery was smooth. Excellent pediatric care!",
+      // text: "My son needed surgery and we were very worried. But Dr. Anjali Gupta and the pediatric team were amazing with children. They made my son comfortable and explained everything to us. The surgery was successful and the recovery was smooth. Excellent pediatric care!",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta inventore? Dolores magnam tempora perferendis odit quos quod mollitia, accusantium voluptates harum architecto aspernatur magni sequi reprehenderit inventore aut officiis.",
       doctor: "Dr. Anjali Gupta",
       date: "August 2023",
-      verified: true,
-      parentTestimonial: true,
+      verified: false,
+      parentTestimonial: false,
       parentName: "Rohit Sharma (Father)"
     },
     {
@@ -108,10 +114,11 @@ const Testimonials = () => {
       category: "Ophthalmology",
       rating: 5,
       image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=150&h=150&fit=crop&crop=face",
-      text: "I was losing my vision due to cataracts and was very scared about surgery. Dr. Deepak Verma performed the cataract surgery with such skill that my vision is now better than it was 10 years ago. The whole process was painless and the results are incredible.",
+      // text: "I was losing my vision due to cataracts and was very scared about surgery. Dr. Deepak Verma performed the cataract surgery with such skill that my vision is now better than it was 10 years ago. The whole process was painless and the results are incredible.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta inventore? Dolores magnam tempora perferendis odit quos quod mollitia, accusantium voluptates harum architecto aspernatur magni sequi reprehenderit inventore aut officiis.",
       doctor: "Dr. Deepak Verma",
       date: "July 2023",
-      verified: true
+      verified: false
     },
     {
       id: 8,
@@ -122,7 +129,8 @@ const Testimonials = () => {
       category: "General",
       rating: 5,
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      text: "Managing diabetes was becoming difficult until I met Dr. Manoj Agarwal at Ilisha Healthcare. His comprehensive approach to diabetes care, including diet counseling and medication management, has transformed my health. My sugar levels are now under control and I feel much better.",
+      // text: "Managing diabetes was becoming difficult until I met Dr. Manoj Agarwal at Ilisha Healthcare. His comprehensive approach to diabetes care, including diet counseling and medication management, has transformed my health. My sugar levels are now under control and I feel much better.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta inventore? Dolores magnam tempora perferendis odit quos quod mollitia, accusantium voluptates harum architecto aspernatur magni sequi reprehenderit inventore aut officiis.",
       doctor: "Dr. Manoj Agarwal",
       date: "June 2023",
       verified: true
